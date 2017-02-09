@@ -1,0 +1,155 @@
+body {
+  padding:0px;
+  margin:0px;
+  background-image: url('../images/felt.jpg');
+  background-repeat: repeat;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+#blue-pieces {
+  margin: 0 auto;
+  height: 100px;
+  width: 1200px;
+  padding-bottom: 50px;
+}
+
+#blue-pieces div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#red-pieces {
+  margin: 0 auto;
+  height: 100px;
+  width: 1200px;
+  padding-bottom: 50px;
+}
+
+#red-pieces div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.frame {
+  width: 900px;
+  height: 900px;
+  margin: auto;
+  margin-top:50px;
+  background-image: url('../images/wood.png');
+  background-repeat: repeat;
+  border-radius: 10px;
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  padding-top:50px;
+}
+
+.row {
+  padding:0px;
+  margin: 0px;
+  height: 100px;
+}
+
+.cell {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.white {
+  background: #E5DFD4;
+  background-image: url('../images/white.png');
+  background-repeat: repeat;
+
+}
+
+.black {
+  background-image: url('../images/black.jpg');
+  background-repeat: repeat;
+}
+
+.piece {
+ width: 90px;
+ height: 90px;
+ margin:auto;
+ margin-top:5%;
+ border-radius: 50%;
+ background-color: white;
+}
+
+.piece-blue {
+ background-image: url('../images/blue_chip.png');
+ background-repeat: repeat;
+ background-size: 100% 100%;
+}
+
+.king-blue {
+  background-image: url('../images/blue_king.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+.piece-red {
+  background-image: url('../images/red_chip.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+.king-red {
+  background-image: url('../images/red_king.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+form {
+  background: #000;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 400px;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+}
+
+form button {
+  width: 9%;
+  background: rgb(130, 224, 255);
+  border: none;
+  padding: 10px;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #eee;
+}
+
+
+/*Blue goes first
+  You may move your piece one cell diagonally
+
+  Drag/ Click Toggle can be used to change the setting from dragging a piece and dropping it on a cell to clicking a target piece and then clicking the destination cell.  This is helpful if playing on a mobile device
+
+  Sign up/ Sign in to have stat tracking and access to the in-game chat features
+
+  Before starting a game you can select to play against an AI.  Once a game starts you cannot sign in.*/
